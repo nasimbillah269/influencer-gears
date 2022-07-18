@@ -75,6 +75,37 @@ body {
 
 }
 
-/* .company-item img {
-    width: 100%;
-} */
+/*  ----------------Popular Collection style----------------------*/
+.top-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.collection {
+    width: 320px;
+    height: 460px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0px 20px 20px;
+    box-shadow: 3px 3px 5px 5px rgb(226, 219, 219);
+}
+
+.collection-item img {
+    width: 320px;
+    height: 270px;
+
+}
+
+.collection-rating {
+    display: flex;
+    align-items: center;
+}
