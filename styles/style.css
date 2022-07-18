@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ----------------header style ------------*/
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-title h3 {
+    font-size: 25px;
+}
+
+.header-item {
+    display: flex;
+
+}
+
+.header-item li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.header-item li a {
+    text-decoration: none;
+}
+
+/*-------------- banner section style -----------*/
+.banner {
+    display: flex;
+    width: 50%;
+    margin-left: 170px;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 35px;
+}
+
+.button-style {
+    padding: 8px 25px;
+    background-color: #E02C6D;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.button-style .fa-solid {
+    margin-left: 9px;
+}
+
+.banner-images img {
+    background-image: url(/images/Circle\ design.svg );
+    background-size: 100%;
+    width: 100%;
+    margin-left: 300px;
+}
