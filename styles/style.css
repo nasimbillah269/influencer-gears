@@ -92,7 +92,7 @@ h1 {
 
 .collection {
     width: 320px;
-    height: 460px;
+    height: 400px;
     background-color: #fff;
     padding: 20px;
     margin: 0px 20px 20px;
@@ -102,10 +102,30 @@ h1 {
 .collection-item img {
     width: 320px;
     height: 270px;
+}
 
+.collection-item p {
+    margin: 0;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.collection-title {
+    margin: 0px;
+    margin-top: 8px;
 }
 
 .collection-rating {
     display: flex;
     align-items: center;
+}
+
+.star-list {
+    color: orange;
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+    margin-left: 10px;
 }
