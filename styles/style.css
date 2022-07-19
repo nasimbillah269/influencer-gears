@@ -35,7 +35,7 @@ body {
 .banner {
     display: flex;
     width: 50%;
-    margin-left: 170px;
+    margin-left: 150px;
     align-items: center;
 
 }
@@ -94,7 +94,7 @@ h1 {
 
 .collection {
     width: 320px;
-    height: 400px;
+    height: 420px;
     background-color: #fff;
     padding: 20px;
     margin: 0px 20px 20px;
@@ -134,7 +134,7 @@ h5 {
     margin-left: 10px;
 }
 
-.collection-info {
+.collection-info p {
     margin: 0;
 }
 
@@ -157,19 +157,14 @@ h5 {
     /* width: 50%;
     padding: 50px;
     margin-left: 400px; */
-
-
 }
 
 .feature-products-item {
     width: 530px;
-
-
 }
 
 .feature-products-item h4 {
     font-size: 30px;
-
 }
 
 .feature-products-item p {
@@ -179,6 +174,7 @@ h5 {
 .feature-product-img img {
     width: 390px;
     height: 250px;
+    margin-top: 50px;
 
 }
 
@@ -215,4 +211,60 @@ h5 {
     width: 25px;
     height: 25px;
     color: #fff;
+}
+
+/* ----------media quary----------- */
+/* ------------------mobile devise -------------------*/
+@media only screen and (max-width: 668px) {
+    .header-section {
+        width: 100%;
+    }
+
+    .header-navber {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner-images img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .company-list {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-collection {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-products {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .feature-product-img img {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .feature-products-item {
+        width: 100%;
+    }
+
+    .footer-main {
+        width: 100%;
+    }
 }
