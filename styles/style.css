@@ -1,6 +1,8 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 /* ----------------header style ------------*/
@@ -189,4 +191,28 @@ h5 {
 
 .join-button .fa-solid {
     margin-left: 10px;
+}
+
+/*------------------------ footer style ------------------*/
+.footer-main {
+    background-color:
+        #0A0826;
+    text-align: center;
+    margin-top: 100px;
+    padding: 80px;
+    color: #fff;
+}
+
+.footer-title h2 {
+    font-size: 30px;
+}
+
+.footer-ditale p {
+    font-size: 18px;
+}
+
+.footer-icon .fa-brands {
+    width: 25px;
+    height: 25px;
+    color: #fff;
 }
